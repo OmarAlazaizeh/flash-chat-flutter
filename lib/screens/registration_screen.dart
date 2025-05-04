@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class RegistrationScreen extends StatefulWidget {
   const RegistrationScreen({super.key});
 
+  static const String id = 'registration_screen';
+
   @override
   RegistrationScreenState createState() => RegistrationScreenState();
 }
@@ -18,9 +20,12 @@ class RegistrationScreenState extends State<RegistrationScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            Container(
-              height: 200.0,
-              child: Image.asset('images/logo.png'),
+            Hero(
+              tag: 'logo',
+              child: SizedBox(
+                height: 200.0,
+                child: Image.asset('images/logo.png'),
+              ),
             ),
             SizedBox(
               height: 48.0,
