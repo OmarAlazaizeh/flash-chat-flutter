@@ -76,8 +76,6 @@ class WelcomeScreenState extends State<WelcomeScreen>
             SizedBox(
               height: 48.0,
             ),
-
-            // color: Colors.lightBlueAccent,
             RoundedButton(
               color: Colors.lightBlueAccent,
               title: 'Log in',
@@ -85,7 +83,6 @@ class WelcomeScreenState extends State<WelcomeScreen>
                 Navigator.pushNamed(context, LoginScreen.id);
               },
             ),
-            // color: Colors.blueAccent,
             RoundedButton(
               color: Colors.blueAccent,
               title: 'Register',
