@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "58758641911",
+    "project_id": "flash-chat-ada84",
+    "storage_bucket": "flash-chat-ada84.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58758641911:android:3425cf6af88402ddd6fbf2",
+        "android_client_info": {
+          "package_name": "com.azaizeh.flash_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiUQAYh6a__DQYcloM54prFNTI4iEFUq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
